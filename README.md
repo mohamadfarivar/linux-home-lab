@@ -15,14 +15,10 @@ Personal Linux home lab built using VMware and Ubuntu Server to practice Linux s
 
 # Lab Architecture
 
-VMware Workstation
-│
-├── Ubuntu Server VM
-│   ├── Apache2
-│   ├── OpenSSH
-│   └── UFW Firewall
-│
-└── Client VM
+VMware Workstation/ Ubuntu server VM / Apache2
+                                     / OpenSSH
+                                     / UFU Firewall
+                  / client VM
 
 ---
 
@@ -52,7 +48,7 @@ VMware Workstation
 
 ## Ubuntu Server Terminal
 
-![Ubuntu](screenshots/ubuntu-terminal.png)
+![Ubuntu](screenshots/ubuntu-server-terminal.png)
 
 ## Apache Running
 
