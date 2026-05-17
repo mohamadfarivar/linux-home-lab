@@ -1,61 +1,65 @@
 # Linux Home Lab
 
-Personal Linux lab environment built using VMware and Ubuntu Server for system administration, networking, and server management practice.
+Personal Linux home lab built using VMware and Ubuntu Server to practice Linux system administration, networking, web server configuration, and troubleshooting.
+
+---
+
+# Project Goals
+
+- Practice Linux administration
+- Learn networking concepts
+- Configure Linux services
+- Improve troubleshooting skills
+
+---
+
+# Lab Architecture
+
+VMware Workstation
+│
+├── Ubuntu Server VM
+│   ├── Apache2
+│   ├── OpenSSH
+│   └── UFW Firewall
+│
+└── Client VM
 
 ---
 
 # Technologies Used
 
 - Ubuntu Server
-- VMware Workstation
+- VMware
 - Apache2
-- SSH
-- Linux Networking
+- OpenSSH
 - Bash
+- Linux Networking
+- Git & GitHub
 
 ---
 
-# Lab Features
+# Network Configuration
 
-- Linux server installation
-- Static IP configuration
-- Apache web server setup
-- SSH remote access
-- Basic network troubleshooting
-- Service management with systemctl
-
----
-
-# Project Structure
-
-```text
-configs/       -> configuration files
-networking/    -> networking notes
-services/      -> Linux services setup
-screenshots/   -> lab screenshots
-scripts/       -> automation scripts
-```
+| Device | IP Address |
+|---|---|
+| Ubuntu Server | 192.168.75.149 |
+| Client Machine | 192.168.75.150 |
+| Gateway | 192.168.75.1 |
 
 ---
 
 # Screenshots
 
-## Ubuntu Server
+## Ubuntu Server Terminal
 
-![Ubuntu](screenshots/ubuntu-server-terminal.png)
+![Ubuntu](screenshots/ubuntu-terminal.png)
 
 ## Apache Running
 
 ![Apache](screenshots/apache-running.png)
 
+## System Info Script
+
+![Scripts](screenshots/system-info-script.png)
+
 ---
-
-# Skills Practiced
-
-- Linux Administration
-- Networking Basics
-- Web Server Configuration
-- SSH Management
-- Troubleshooting
-- Command Line Usage
-
