@@ -42,9 +42,7 @@ VMware Workstation
 - Apache2
 - OpenSSH
 - UFW Firewall
-- Bash Scripting
 - Linux Networking
-- Git & GitHub
 
 ---
 
@@ -149,7 +147,6 @@ VMware Workstation
 - Apache2
 - OpenSSH
 - UFW Firewall
-- Git & GitHub
 ---
 
 # Project Structure
@@ -248,24 +245,4 @@ The issue was fixed by correcting the Apache configuration file.
 - Reverse proxy configuration
 
 ---
-
-# Author
-
-Mohamad Farivar
-
-Linux • Networking • Security • Infrastructure- Monitoring stack
----
-
-
-
-
-
-
-- Static IP configuration
-- User and permissions management
-## Linux Administration
-├── security/       -> security hardening and firewall
-│
-
-- Bash Scripting
 
